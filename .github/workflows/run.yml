@@ -28,7 +28,7 @@ jobs:
           python -m pip install opencv-python
           python -m pip install telepot
           python -m pip install ultralytics
-          python -m pip install PyQt5
+          sudo apt-get install libxcb-xinerama0
           python a.py
       # - name: Run Python Script
       #   run: |
