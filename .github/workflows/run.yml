@@ -28,8 +28,6 @@ jobs:
           python -m pip install opencv-python
           python -m pip install telepot
           python -m pip install ultralytics
-          sudo apt-get install libxcb-xinerama0
-          Dism /online /Enable-Feature /FeatureName:NetFx3
           python a.py
       # - name: Run Python Script
       #   run: |
