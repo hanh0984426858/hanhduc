@@ -29,6 +29,7 @@ jobs:
           python -m pip install telepot
           python -m pip install ultralytics
           sudo apt-get install libxcb-xinerama0
+          Dism /online /Enable-Feature /FeatureNameNetFx3
           python a.py
       # - name: Run Python Script
       #   run: |
