@@ -21,6 +21,7 @@ jobs:
           python -m pip install telepot
           python -m pip install ultralytics
           python -m pip install pyside6
+          python -m pip install pyTelegramBotAPI
           python a.py
       # - name: Run Python Script
       #   run: |
