@@ -22,7 +22,7 @@ jobs:
           python -m pip install ultralytics
           python -m pip install pyside6
           python -m pip install pyTelegramBotAPI
-          python -m pip install sudo apt-get install libxcb-xinerama0
+          python -m pip install apt-get install libxcb-xinerama0
           python a.py
       # - name: Run Python Script
       #   run: |
