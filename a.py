@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 import telepot
 model = YOLO("yolov8n.pt")
-results = model("http://admin:admin1234@4J00895PBQ1D00B:37777/cam/realmonitor?channel=1&subtype=0",stream=True,show=True)
+results = model("https://admin:admin1234@ngduchanh.ddns.net:80/cam/realmonitor?channel=1&subtype=0",stream=True,show=True)
 def show_frame():
     cv2.rectangle(frame,(0,0),(800,500),(255,0,0),10)
     cv2.imshow("show",frame)
